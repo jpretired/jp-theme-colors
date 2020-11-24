@@ -1,0 +1,16 @@
+/* Hlavní menu motivu color (barvy)- názvy položek pod ikonami: */
+/*--------------------------------------------------------------*/
+.wt-genealogy-menu {
+	padding-top: 8px !important;
+	}
+.wt-genealogy-menu .nav-link:before {
+	display: block;
+	}
+.wt-genealogy-menu .nav-link {
+	display: inline !important;
+	text-align: center !important;
+        color: white;
+}
+.wt-genealogy-menu .dropdown-toggle:after {
+	display: none;
+	}
