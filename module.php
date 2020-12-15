@@ -37,7 +37,7 @@ return new class extends ColorsTheme implements ModuleCustomInterface {
      */
     public function title(): string
     {
-        return 'JpColors-barvy';
+        return 'Jp-barvy';
     }
 
     /**
