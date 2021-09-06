@@ -2,10 +2,10 @@
 /*--------------------------------------------------------------*/
 .wt-genealogy-menu {
 	padding-top: 8px !important;
-	}
+}
 .wt-genealogy-menu .nav-link:before {
 	display: block;
-	}
+}
 .wt-genealogy-menu .nav-link {
 	display: inline !important;
 	text-align: center !important;
@@ -13,4 +13,30 @@
 }
 .wt-genealogy-menu .dropdown-toggle:after {
 	display: none;
-	}
+}
+
+/* Jemné pozadí */
+.wt-main-container,
+.modal-body {
+    /* background-color: #e6f2ff;   jemně modré #e6f2ff */ 
+    background-color: #f6f2ef;   /* jemně žluté #f6f2ef*/
+}
+.card-body.collapse.show {
+    /* background-color: #E0EFFF;   jemně modré #E0EFFF */ 
+    background-color: #f6f2ef;   /* jemně žluté #f6f2ef */
+}
+/* Pozadí ženských boxů v interaktivním stromu: */
+[dir] .tvF {
+    background-color:#ffd6cc !important;  /* jemně červené */
+    /* background-color:#ffffbb !important; žluté */
+}
+/* Pozadí ženských boxů ve faktech a událostech: */
+[dir] .wt-facts-table .wt-gender-F td {
+    background-color:#ffd6cc !important;  /* jemně červené */
+    /* background-color:#ffffbb !important; žluté */
+}
+/* Pozadí ženských boxů v diagramech: */
+[dir] .wt-chart-box-f {  
+    background-color:#ffd6cc !important; /* jemně červené */
+    /* background-color:#ffffbb !important; žluté */
+}
