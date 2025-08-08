@@ -32,6 +32,16 @@ use Fisharebest\Webtrees\View;
 return new class extends ColorsTheme implements ModuleCustomInterface {
     use ModuleCustomTrait;
 
+	//Custom module version
+	public const CUSTOM_VERSION = 'v1.0.2';
+
+	//GitHub repository
+	public const GITHUB_REPO = 'jpretired/jp-theme-colors';
+
+	//Author of custom module
+	public const CUSTOM_AUTHOR = 'Josef Prause';
+
+
     /**
      * @return string
      */
