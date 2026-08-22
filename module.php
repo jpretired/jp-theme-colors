@@ -49,7 +49,19 @@ return new class extends ColorsTheme implements ModuleCustomInterface {
     {
         return 'Jp-barvy';
     }
-
+    public function description(): string
+    {
+        return 'This module adds titles to main menu icons.';
+    }
+	public function customModuleVersion(): string
+    {
+        return '1.0.3';
+    }
+    public function customModuleAuthorName(): string
+    {
+        return 'Josef Prause';
+    }
+	
     /**
      * Bootstrap the module
      */
