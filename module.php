@@ -35,9 +35,6 @@ return new class extends ColorsTheme implements ModuleCustomInterface {
 	//Custom module version
 	public const CUSTOM_VERSION = 'v1.0.2';
 
-	//GitHub repository
-	public const GITHUB_REPO = 'jpretired/jp-theme-colors';
-
 	//Author of custom module
 	public const CUSTOM_AUTHOR = 'Josef Prause';
 
@@ -49,7 +46,19 @@ return new class extends ColorsTheme implements ModuleCustomInterface {
     {
         return 'Jp-barvy';
     }
-
+    public function description(): string
+    {
+        return 'This module adds titles to main menu icons.';
+    }
+	public function customModuleVersion(): string
+    {
+        return '1.0.3';
+    }
+    public function customModuleAuthorName(): string
+    {
+        return 'Josef Prause';
+    }
+	
     /**
      * Bootstrap the module
      */
